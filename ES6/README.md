@@ -15,7 +15,7 @@ ECMAScript 6.0 （简称ES6） 是继ECMAScript 5.1以后的javascript 语言的
 其中7、8、9主要是内置对象的扩展
 
 7. Symbol
-8. 数组和对象的扩展
+8. 对象的扩展
 9. 函数的扩展
 
 ---
