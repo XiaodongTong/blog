@@ -1,9 +1,9 @@
 ## 什么是ES6
-ECMAScript 6.0 （简称ES6） 是继ECMAScript 5.1以后的javascript 语言的下一代标准，在2015年6月份发布。   
+ECMAScript 6.0 （简称ES6） 是继ECMAScript 5.1以后的javascript 语言的下一代标准，在2015年6月份发布。
 他的目标是使javascript语言可以用来编写复杂的大型应用程序，成为企业级开发语言。
 
 ## ES6知识体系
-其中前6部分为新增的基础语法。   
+其中前6部分为新增的基础语法。
 
 1. let和const关键字
 2. 变量的解构赋值
@@ -19,8 +19,8 @@ ECMAScript 6.0 （简称ES6） 是继ECMAScript 5.1以后的javascript 语言的
 9. 函数的扩展
 
 ---
-最后三个是新增的异步编程系统   
+最后三个是新增的异步编程系统
 
-10. Promise  
-11. Generator  
-12. async函数   
+10. Promise
+11. Generator
+12. async函数
