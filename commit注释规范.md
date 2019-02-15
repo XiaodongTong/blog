@@ -1,7 +1,3 @@
-# commit注释规范
-
-
-
 ## 基本格式
 ```
 <type>(<scope>):<subject>
@@ -33,7 +29,7 @@ body(可选)
 
 ---
 **2. scope**  
-用于说明commit影响的范围，与具体业务相关。 例如JDOS、JFS、JIMDB、HuFu、SRP等等。
+用于说明commit影响的范围，与具体业务相关。例如业务逻辑层、数据连接层、移动端、web端等。
 
 ---
 **3. subject**    
