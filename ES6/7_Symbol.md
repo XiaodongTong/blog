@@ -24,7 +24,7 @@ let s2 = Symbol('d');
 s1 === s2  //false
 ```
 
-**如何在各个windows间，创建&获取 一个全局的共享的Symbol ？**    
+**如何在各个windows间，创建&获取 一个全局的共享的Symbol？**    
 此时需要使用Symbol.for()，它可以创建 或者 获取window间全局的Symbol实例。  
 Symbol.for()有点类似，单例模式。
 ```
