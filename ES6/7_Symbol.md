@@ -34,7 +34,7 @@ let g2 = Symbol.for('global_1');
 g1 === g2;  // true
 ```
 
-# 应用场景
+# 应用场景
 
 我们都知道js不像java一样有public，private这样的访问修饰符。那么在对象中如何控制某个属性不被外部访问到？   
 我们尝试一下使用Symbol。
@@ -50,7 +50,7 @@ g1 === g2;  // true
     console.log(key);  // output: name
   }
 ```
-如上所示，Symbol类型的key是不能通过Object.keys()、for in来枚举的。   
+如上所示，Symbol类型的key是不能通过Object.keys()、for in来枚举的。 
 还不止这些，当我们使用JSON.stringify()，把对象序列化成JSON字符串时同样没有Symbol属性。
 
 ```
@@ -60,7 +60,7 @@ let obj = {
 };
 JSON.stringify(obj); //{"name":"russell"}
 ```
-利用这一特点，我们可以把一些不需要对外操作和访问的属性用Symbol来定义。 让“对内操作”和“对外选择性输出”变得更加优雅。
+利用这一特点，我们可以把一些不需要对外操作和访问的属性用Symbol来定义。 让“对内操作”和“对外选择性输出”变得更加优雅。
 
 
 
