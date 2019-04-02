@@ -8,3 +8,4 @@ throttle     节流阀
 --------------------
 chunk      块
 compact    压缩
+comments   注释、评论
