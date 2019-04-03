@@ -7,7 +7,7 @@ CSSOM 是 CSS 的对象模型，在 W3C 标准中，它包含两个部分：
 * 跟元素视图相关的 View 部分（CSSOM View）。
 
 
-# CSSOM
+# CSSOM
 在实际使用中，CSSOM View 比 CSSOM 更常用一些，因为我们很少需要用代码去动态地管理样式表。
 
 # CSSOM View
@@ -58,11 +58,11 @@ element.addEventListener("scroll", function(event){
 ### 全局尺寸信息
 * window.innerHeight         视口的高
 * window.innerWidth          视口的宽
-* window.devicePixelRatio    像素比（DPR），物理像素和css像素单位的倍率关系。
+* window.devicePixelRatio    像素比（DPR），物理像素和css像素单位的倍率关系。
 * window.screen   
 > window.screen.width, window.screen.height 设备的屏幕尺寸。
 
-### 获取Element对象的尺寸信息。     
+### 获取Element对象的尺寸信息。     
     
 * element.clientWidth\element.clientHeight
 > 属性表示元素的内部宽度\高度，以像素计。该属性包括内边距，但不包括滚动条（如果有）、边框和外边距。    
