@@ -18,6 +18,9 @@ next()
 nextAll()    
 prev()    
 prevAll() 
+children()      
+parent()   
+parents()   
 
 # 属性
 attr()    
