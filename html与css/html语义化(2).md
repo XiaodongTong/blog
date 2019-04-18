@@ -1,6 +1,8 @@
-article
-header
-footer
+## article
+具有独立性质的文章，与body结构类似。
+> 一个body内可以有多个article标签。(类似报纸的新闻专题)
+## header\footer
+   
 section
 aside
 address
