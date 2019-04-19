@@ -70,14 +70,16 @@ hr 表示故事走向的转变或者话题的转变，如果是视觉效果请�
 <dfn>goland</dfn> google推出的编程语言。
 ```
 
-
-## pre\samp\code
+## pre、samp、code
 
 ## dl\dt\dd
+一般出现在比较严肃的文章内，对术语的定义。
 
 ## main
+文章主体
 
 ## menu  
+上下文菜单
 
 
 
