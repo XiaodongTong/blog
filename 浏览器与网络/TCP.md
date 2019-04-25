@@ -209,3 +209,6 @@ TCP的状态机是一个具有11种状态的有限状态机。
 * [TCP 的那些事儿（上）](https://kb.cnblogs.com/page/209100/)
 * [TCP 的那些事儿（下）](https://kb.cnblogs.com/page/209101/)
 * [TCP协议分析](https://www.jianshu.com/p/d6dcb880b56b?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
+
+# 扩展
+* [TCP的超时重传之深入了解RTT与RTO](https://blog.csdn.net/whgtheone/article/details/80970292)
