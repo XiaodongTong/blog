@@ -11,7 +11,7 @@ console.log(a);   //这里不可以使用
 2. 使用let声明的变量，在欲解析的时候不会被提升。
 ```
 //使用var声明变量时,可以这样写
-console.log(a); // 此时输出  1
+console.log(a); // 此时输出  undefined
 var a = 1;
 
 //但是使用let时
@@ -21,7 +21,7 @@ let a = 1;
 typeof c;
 let c = 10; //依然会报错
 
-lef f = 10;
+let f = 10;
 function fn(){
     f = 7;   //暂时性死去，会报错
     let f = 2;
