@@ -24,6 +24,7 @@
 
 # 创建    
 * CreateElement
+* CreateDocumentFragment
 
 # Attribute 
 * getAttribute
