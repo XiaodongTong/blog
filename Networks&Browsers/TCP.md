@@ -47,10 +47,10 @@ TCP的状态机是一个具有11种状态的有限状态机。
 |  ESTABLISHED   |  连接建立，正常数据传输状态                       |
 |  FIN WAIT 1    | （主动关闭）已经发送关闭请求，等待确认              |
 |  FIN WAIT 2    | （主动关闭）收到对方关闭确认，等待对方关闭请求        |
-|  TIMED WAIT    |  完成双向关闭，等待所有分组死掉                    |
+|  TIME WAIT    |  完成双向关闭，等待所有分组死掉                     |
 |  CLOSING       |  双方同时尝试关闭，等待对方确认                    |
 |  CLOSE WAIT    | （被动关闭）收到对方关闭请求，已经确认              |
-|  LAST ACK      | （被动关闭）等待最后一个关闭确认，并等待所有分组死掉  |   
+|  LAST ACK      | （被动关闭）等待最后一个关闭确认，并等待所有分组死掉   |   
         
 > 介绍完了tcp相关的基本概念，我们继续介绍tcp的运行机制。我将分成两部分来描述，即**保障可靠性**的相关机制和**提高性能**的相关机制。
 
@@ -209,6 +209,7 @@ TCP的状态机是一个具有11种状态的有限状态机。
 * [TCP 的那些事儿（上）](https://kb.cnblogs.com/page/209100/)
 * [TCP 的那些事儿（下）](https://kb.cnblogs.com/page/209101/)
 * [TCP协议分析](https://www.jianshu.com/p/d6dcb880b56b?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
+* [RFC783](https://tools.ietf.org/html/rfc793)
 
 # 扩展
 * [TCP的超时重传之深入了解RTT与RTO](https://blog.csdn.net/whgtheone/article/details/80970292)
